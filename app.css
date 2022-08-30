@@ -75,8 +75,8 @@ button{
 	height: 50px;
 	border-radius: 18px;
 	border: none;
-	/*background: #0A3871;*/
-	background-color: darkred;
+	
+	background: #0A3871;
 	text-decoration: none;
 	font-family: "DynaPuff", sans-serif;
 	color: whitesmoke;

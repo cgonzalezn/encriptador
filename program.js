@@ -35,6 +35,9 @@ function btnDecrypt(){
  
 function btnCopy(){
     let msm = document.getElementById('answer').innerHTML; //get the element
+     inputParagraph.value = msm;
+    
+
     
 }      
   
