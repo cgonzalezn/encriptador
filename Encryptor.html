@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)file:///home/carlos/Documents/cursosOnlineAprendiendo/Alura/Challenge%20ONE/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptor</title>
+    
+    <link rel="stylesheet" href="app.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DynaPuff' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+
+    <div class = "allArea">
+        
+
+
+        <div class="panel">
+
+            
+            
+            <div class="textArea">    
+                
+            <div class="letterA">
+            
+                <h1><img src="./Encryptor_files/Vector.png" alt="Alura"><h1>
+                
+
+            </div >
+
+             
+               <textarea id="input1" rows="4" cols="50" placeholder="Ingrese su texto aquí"></textarea>
+
+
+
+                <p class="nota"> Only lowercase text, no symbols </p>
+            </div>
+
+            <div class="botones">
+                <button id="encryptButton" onclick="btnEncrypt()"> Encrypt </button>
+                <button id="decryptButton" onclick="btnDecrypt()"> Decrypt </button>
+            </div>
+        
+
+        </div>
+
+        <div class="answerArea">
+            <div class:"areaRespuesta">
+                <img id="fotoPrincipal" src="./Encryptor_files/Muneco.png" alt="Searching....">
+                <p id="answer"> Ningún mensaje fue encontrado </p>
+                
+            </div>
+
+            <div class="copyButtonDiv">
+                <button id="copyButton" onclick="btnCopy()"> Copy Text </button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="program.js"></script>
+
+
+
+</body>
+
+</html>
